@@ -10,8 +10,8 @@
     <TabBar>
         <ShellContent
             Title="Mateo Cisneros/Notes"
-            ContentTemplate="{DataTemplate views:NotePage}"
-            Route="NotePage" />
+            ContentTemplate="{DataTemplate views:AllNotesPage}"
+            Route="AllNotesPage" />
         <ShellContent
             Title="Mateo Cisneros/About"
             ContentTemplate="{DataTemplate views:AboutPage}"
