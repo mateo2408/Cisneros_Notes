@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb5bfd39-41ca-4d2a-bf6b-b3c902a387d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/AllNotesPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/AllNotesPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/NotePage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/NotePage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cisneros_Notes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cisneros_Notes/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mateo2408"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mateo2408&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mateo2408/Cisneros_Notes.git",
-    "accountId": "03721b39-033a-49ba-a313-80b258777aa1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mateo2408/Cisneros_Notes.git&quot;,
+    &quot;accountId&quot;: &quot;03721b39-033a-49ba-a313-80b258777aa1&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.dotnet/packs/Microsoft.iOS.Sdk.net8.0_18.0/18.0.8319/tools/msbuild/iOS/Xamarin.Shared.targets" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/mateocisneros/RiderProjects/Cisneros_Notes/AboutPage.xaml" root0="SKIP_HIGHLIGHTING" />
@@ -48,35 +46,35 @@
     </ignored-facets>
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ySvrBvLkLRsSQFLSP4KNj2zry3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android.Cisneros_Notes.executor": "Run",
-    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSConnectedDeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Cisneros_Notes": "Mateo’s iPhone",
-    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Cisneros_Notes": "iPhone 16",
-    "DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider": "Simulator",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "iOS.Cisneros_Notes.executor": "Run",
-    "macOS.Cisneros_Notes.executor": "Run",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android.Cisneros_Notes.executor&quot;: &quot;Run&quot;,
+    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSConnectedDeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Cisneros_Notes&quot;: &quot;Mateo’s iPhone&quot;,
+    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Cisneros_Notes&quot;: &quot;iPhone 16&quot;,
+    &quot;DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider&quot;: &quot;Simulator&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;iOS.Cisneros_Notes.executor&quot;: &quot;Run&quot;,
+    &quot;macOS.Cisneros_Notes.executor&quot;: &quot;Run&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android.Cisneros_Notes">
     <configuration name="Cisneros_Notes" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Cisneros_Notes.csproj" />
@@ -112,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749840986865</updated>
-      <workItem from="1749840988165" duration="2788000" />
+      <workItem from="1749840988165" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -202,7 +200,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749843609365</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creacion de AllNotesPage">
+      <option name="closed" value="true" />
+      <created>1749843810389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749843810389</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Actualizacion AllNotesPage">
+      <option name="closed" value="true" />
+      <created>1749843871132</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749843871132</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cambios a AppShell">
+      <option name="closed" value="true" />
+      <created>1749844051068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749844051068</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +245,10 @@
     <MESSAGE value="Actualizacion de AboutPage.Views, actualizacion de Mabout/Models" />
     <MESSAGE value="Actualizacion de NotePage" />
     <MESSAGE value="Creacion AllNotes/Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion AllNotes/Models" />
+    <MESSAGE value="Creacion de AllNotesPage" />
+    <MESSAGE value="Actualizacion AllNotesPage" />
+    <MESSAGE value="Cambios a AppShell" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios a AppShell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
