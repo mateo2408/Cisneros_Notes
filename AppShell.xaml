@@ -4,16 +4,17 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Cisneros_Notes"
+    xmlns:views="clr-namespace:Cisneros_Notes.Views"
     Title="Cisneros_Notes">
 
     <TabBar>
         <ShellContent
-            Title="Mateo Cisneros/Home"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            Title="Mateo Cisneros/Notes"
+            ContentTemplate="{DataTemplate views:NotePage}"
+            Route="NotePage" />
         <ShellContent
             Title="Mateo Cisneros/About"
-            ContentTemplate="{DataTemplate local:AboutPage}"
+            ContentTemplate="{DataTemplate views:AboutPage}"
             Route="AboutPage" />
     </TabBar>
 

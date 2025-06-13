@@ -2,7 +2,7 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cisneros_Notes.NotePage">
+             x:Class="Cisneros_Notes.Views.NotePage">
     <ContentPage.Content>
         <VerticalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
             <Editor x:Name="TextEditor"
