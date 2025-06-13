@@ -5,30 +5,30 @@
              xmlns:models="clr-namespace:Cisneros_Notes.Models"
              x:Class="Cisneros_Notes.Views.AllNotesPage">
     <ContentPage.Content>
-        <!-- Add an item to the toolbar -->
         <ContentPage.ToolbarItems>
             <ToolbarItem Text="Add" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=Black, Size=22}" />
         </ContentPage.ToolbarItems>
 
-        <!-- Display notes in a list -->
         <CollectionView x:Name="notesCollection"
                         ItemsSource="{Binding Notes}"
                         Margin="20"
                         SelectionMode="Single"
-                        SelectionChanged="notesCollection_SelectionChanged">
+                        SelectionChanged="notesCollection_SelectionChanged"
+                        HorizontalOptions="Center"
+                        WidthRequest="340">
 
-            <!-- Designate how the collection of items are laid out -->
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="14" />
             </CollectionView.ItemsLayout>
 
-            <!-- Define the appearance of each item in the list -->
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Note">
-                    <StackLayout>
-                        <Label Text="{Binding Text}" FontSize="22"/>
-                        <Label Text="{Binding Date}" FontSize="14" TextColor="Silver"/>
-                    </StackLayout>
+                    <Frame Padding="14" CornerRadius="10" HasShadow="True" Margin="0,0,0,4" BackgroundColor="#FAFAFA">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Text}" FontSize="22" TextColor="Black"/>
+                            <Label Text="{Binding Date}" FontSize="14" TextColor="Gray"/>
+                        </VerticalStackLayout>
+                    </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
