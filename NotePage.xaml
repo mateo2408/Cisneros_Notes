@@ -4,6 +4,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cisneros_Notes.NotePage">
     <ContentPage.Content>
-        
+        <VerticalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+            <Editor x:Name="TextEditor"
+                    Placeholder="Enter your note"
+                    HeightRequest="120"
+                    WidthRequest="300"
+                    HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12" WidthRequest="300">
+                <Button Text="Save"
+                        Clicked="SaveButton_Clicked" />
+
+                <Button Grid.Column="1"
+                        Text="Delete"
+                        Clicked="DeleteButton_Clicked" />
+            </Grid>
+        </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
