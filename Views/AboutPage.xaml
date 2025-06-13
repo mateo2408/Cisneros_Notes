@@ -2,15 +2,20 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Cisneros_Notes.Models"
              x:Class="Cisneros_Notes.Views.AboutPage">
-        <VerticalStackLayout Spacing="10" Margin="10">
+    <ContentPage.BindingContext>
+        <models:About />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Spacing="10" Margin="10">
             <HorizontalStackLayout Spacing="10">
                 <Image Source="star_wars.png"
                        HeightRequest="64" />
-                <Label FontSize="22" Text="Mateo Cisneros" VerticalOptions="End" />
+                <Label FontSize="22" Text="{Binding Title}" VerticalOptions="End" />
+                <Label FontSize="22" Text="{Binding Version}" VerticalOptions="End" />
             </HorizontalStackLayout>
 
-            <Label Text="Programador, fanatico de Star Wars" />
+            <Label Text="{Binding Message}" />
             <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
         </VerticalStackLayout>
 </ContentPage>
